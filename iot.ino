@@ -1,9 +1,9 @@
 #include <MakerKit.h>
 #include <ESP32Servo.h>
 
-#define BLYNK_TEMPLATE_ID           "TMPL64fd_eV-W"
-#define BLYNK_DEVICE_NAME           "IOT"
-#define BLYNK_AUTH_TOKEN            "RokUE6qCyAalm69nITSV8ZdzisbJzhKA"
+//#define BLYNK_TEMPLATE_ID           "TMPL64fd_eV-W"
+//#define BLYNK_DEVICE_NAME           "IOT"
+//#define BLYNK_AUTH_TOKEN            "RokUE6qCyAalm69nITSV8ZdzisbJzhKA"
 
 
 #define BLYNK_PRINT Serial
