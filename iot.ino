@@ -57,7 +57,8 @@ void Timer1_TimerEvent()
   Blynk.virtualWrite(V7, analogRead(39));
 }
 
-BLYNK_WRITE(V10)
+//BLYNK_WRITE(V10)
+hello branchbaru..
 {
 int pinValue = param.asInt();
   if (pinValue == 1) {
