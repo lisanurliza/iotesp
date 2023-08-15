@@ -123,7 +123,7 @@ int pinValue = param.asInt();
   }
 }
 
-BLYNK_WRITE(V13)
+//BLYNK_WRITE(V13)
 {
 int pinValue = param.asInt();
   if (pinValue == 1) {
