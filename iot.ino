@@ -79,7 +79,7 @@ int pinValue = param.asInt();
   }
 }
 
-BLYNK_WRITE(V12)
+/*BLYNK_WRITE(V12)
 {
 int pinValue = param.asInt();
   if (pinValue == 1) {
@@ -93,7 +93,7 @@ int pinValue = param.asInt();
   } else {
     digitalWrite(13,LOW);
     digitalWrite(14,HIGH);
-    analogWrite(25,0);
+    analogWrite(25,0);*/
     digitalWrite(18,LOW);
     digitalWrite(19,HIGH);
     analogWrite(15,0);
