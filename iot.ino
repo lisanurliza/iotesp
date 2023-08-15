@@ -49,7 +49,7 @@ int pinValue = param.asInt();
   }
 }
 
-BlynkTimer Timer1;
+//BlynkTimer Timer1;
 
 void Timer1_TimerEvent()
 {
