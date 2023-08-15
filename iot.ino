@@ -131,17 +131,17 @@ int pinValue = param.asInt();
     digitalWrite(14,HIGH);
     analogWrite(25,150);
     digitalWrite(18,LOW);
-    digitalWrite(19,HIGH);
+    digitalWrite(19,HIGH);git add 
     analogWrite(15,100);
 
-  } else {
-    digitalWrite(13,LOW);
+  //} else {
+  //  digitalWrite(13,LOW);
     digitalWrite(14,HIGH);
     analogWrite(25,0);
     digitalWrite(18,LOW);
     digitalWrite(19,HIGH);
     analogWrite(15,0);
-
+//servo add
   }
 }
 
