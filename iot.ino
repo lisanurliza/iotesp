@@ -8,7 +8,7 @@
 
 #define BLYNK_PRINT Serial
 
-
+marilah kita merubah master..
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
