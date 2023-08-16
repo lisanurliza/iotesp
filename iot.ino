@@ -192,3 +192,5 @@ void loop() {
   Timer1.run();
 }
 //try code in ultrasonic
+
+// trying adding light sensor .. 
