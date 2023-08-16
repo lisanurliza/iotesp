@@ -1,4 +1,4 @@
-#include <MakerKit.h>
+#include <MakerKit.h> test ultra
 #include <ESP32Servo.h>
 
 //#define BLYNK_TEMPLATE_ID           "TMPL64fd_eV-W"
@@ -192,3 +192,5 @@ void loop() {
   Timer1.run();
 }
 //try code in ultrasonic
+
+// trying adding light sensor .. 
