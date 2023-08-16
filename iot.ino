@@ -1,14 +1,14 @@
-#include <MakerKit.h> test ultra
+#include <MakerKit.h>
 #include <ESP32Servo.h>
 
-//#define BLYNK_TEMPLATE_ID           "TMPL64fd_eV-W"
-//#define BLYNK_DEVICE_NAME           "IOT"
-//#define BLYNK_AUTH_TOKEN            "RokUE6qCyAalm69nITSV8ZdzisbJzhKA"
+#define BLYNK_TEMPLATE_ID           "TMPL64fd_eV-W"
+#define BLYNK_DEVICE_NAME           "IOT"
+#define BLYNK_AUTH_TOKEN            "RokUE6qCyAalm69nITSV8ZdzisbJzhKA"
 
 
 #define BLYNK_PRINT Serial
 
-marilah kita merubah master..
+
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
@@ -49,7 +49,7 @@ int pinValue = param.asInt();
   }
 }
 
-//BlynkTimer Timer1;
+BlynkTimer Timer1;
 
 void Timer1_TimerEvent()
 {
@@ -57,8 +57,7 @@ void Timer1_TimerEvent()
   Blynk.virtualWrite(V7, analogRead(39));
 }
 
-//BLYNK_WRITE(V10)
-hello branchbaru..
+BLYNK_WRITE(V10)
 {
 int pinValue = param.asInt();
   if (pinValue == 1) {
@@ -80,7 +79,7 @@ int pinValue = param.asInt();
   }
 }
 
-/*BLYNK_WRITE(V12)
+BLYNK_WRITE(V12)
 {
 int pinValue = param.asInt();
   if (pinValue == 1) {
@@ -94,7 +93,7 @@ int pinValue = param.asInt();
   } else {
     digitalWrite(13,LOW);
     digitalWrite(14,HIGH);
-    analogWrite(25,0);*/
+    analogWrite(25,0);
     digitalWrite(18,LOW);
     digitalWrite(19,HIGH);
     analogWrite(15,0);
@@ -124,7 +123,7 @@ int pinValue = param.asInt();
   }
 }
 
-//BLYNK_WRITE(V13)
+BLYNK_WRITE(V13)
 {
 int pinValue = param.asInt();
   if (pinValue == 1) {
@@ -132,17 +131,17 @@ int pinValue = param.asInt();
     digitalWrite(14,HIGH);
     analogWrite(25,150);
     digitalWrite(18,LOW);
-    digitalWrite(19,HIGH);git add 
+    digitalWrite(19,HIGH);
     analogWrite(15,100);
 
-  //} else {
-  //  digitalWrite(13,LOW);
+  } else {
+    digitalWrite(13,LOW);
     digitalWrite(14,HIGH);
     analogWrite(25,0);
     digitalWrite(18,LOW);
     digitalWrite(19,HIGH);
     analogWrite(15,0);
-//servo add
+
   }
 }
 
@@ -191,6 +190,3 @@ void loop() {
   Blynk.run();
   Timer1.run();
 }
-//try code in ultrasonic
-
-// trying adding light sensor .. 
